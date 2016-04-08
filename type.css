@@ -1,0 +1,168 @@
+body {
+    font-family: 'Wire One', sans-serif;
+}
+
+/* Lists*/
+.navback {
+   background-color: #8CC739 
+}
+nav {
+    max-width: 1576px;
+    height: 60px;
+    background-color: #8CC739
+}
+
+nav ul {
+     list-style-type: none;
+     float: right;
+     margin-top: .8em;
+}
+nav li {
+     display: inline;
+     text-align: center;
+     padding-left: .5em;
+     padding-right: .9em;
+     letter-spacing: 0.15em;
+
+        }
+nav li a{
+    text-decoration: none;        
+    color: white;
+    text-shadow: .1em .1em .03em #517A17;
+    font-size: 1.5em;
+    font-weight: 800;
+        }
+.we {
+    text-decoration: none;
+    display: inline-block;
+    color: #8CC739;
+    text-align: center;
+    padding-bottom: 1em;
+        }
+.fa-stack:hover .fa-circle {
+    color: #8CC739;
+        }
+.fa-stack:hover .fa-thumbs-up {
+    color: white;
+        }
+.fa-stack:hover .fa-headphones {
+            color: white;
+        }
+.fa-stack:hover .fa-star {
+            color: white;
+        }
+.fa-stack:hover .fa-cube {
+            color: white;
+        }
+h1 {
+    font-size: 6em;
+
+}
+h2 {
+    font-size: 2em;
+
+}
+h3 {
+    line-height: 1.4em;
+    font-size: 1.3em;
+    letter-spacing: .25em;
+    padding-top: .3em;
+}
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 1.6em;
+    font-size: 1.1669em;
+    letter-spacing: 0.25em;
+    padding-bottom: .3em;
+    }
+h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 1em;
+    font-size: 1.2em;
+    letter-spacing: 0.25em;
+}
+p {
+    line-height: 1.6em;
+    font-size: 1.4em;
+    letter-spacing: .2em;
+    padding-top: .3em;
+}
+.intro h3 {
+    color: #8CC739;
+}
+.statsno {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+}
+.statstxt {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    color: white;
+}
+
+.johntxtinner h4 {
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: 0;
+}
+
+.johnpgreen {
+    margin-top: -15px;
+    padding: 0;
+    color: #8CC739;
+    text-shadow: .02em .02em .02em #8CC739;
+}
+
+.johnp {
+    color: white;
+    margin-top: 0px;
+    font-size: 1em;
+}
+
+.progressbars {
+    color: white;
+}
+
+
+.subnav1 {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 36px;
+    padding-bottom: 36px;
+}
+
+.subnav1 ul {
+    max-width: 80%;
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+}
+ .subnav1  li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 6px 16px 6px 16px;
+}
+
+.subnav1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 1em;
+    letter-spacing: .2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subnav1  li:hover {
+    background: #8CC739;
+}
+
+.subnav1 a:hover {
+    color: white;
+}
+    

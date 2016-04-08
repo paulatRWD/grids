@@ -1,0 +1,156 @@
+/* Object styles*/
+#logomain {
+    padding-bottom: 2em;
+    
+}
+/* #butnmain {
+    margin-top: 1em;
+    padding-top: .6em;
+    padding-bottom: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
+} */
+.buttgr {
+    display: block;
+    width: 9.125em;
+    height: 2.375em;
+    background-color: #8CC739;
+}
+#littlemouse {
+    margin-top: 12em;
+    padding-bottom: 1em;
+}
+#navlogo {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.hr {
+    display: block;
+    width: 2.1875em;
+    margin-top: .04em;
+    margin-bottom: .04em;
+    border-style: inset;
+    border-width: .05em;
+ }
+#hr1 {
+    display: block;
+    width: 20%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-style: inset;
+    border-width: .05em;
+    border-color: dodgerblue;
+}
+
+#mobile {
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 6.4%;
+}
+.fa-circle {
+    color: white;
+}
+.blkicon {
+    font-size: 4em;
+    color: #8CC739; 
+}
+.oneoffour .image {
+    position: relative;
+}
+.oneoffour .image {
+    width: 100%;
+    padding: 0;
+    border-width: 0;
+}
+/*.oneoffour .image:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(140,199,147,0.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.oneoffour .image:hover:after {
+    opacity: 1;
+}*/
+
+.img img:hover {
+    opacity: 0.7;
+    -webkit-filter: hue-rotate(84deg);
+    filter: hue-rotate(84deg); 
+}
+
+.img:hover {
+    outline-style: solid;
+    outline-color: green;
+    outline-width: 0.8px;
+    outline-offset: 0; 
+}
+
+/*.image:hover {
+    border-style: solid;
+    border-color: green;
+}*/
+
+#johnsocial {
+    max-width: 490px;
+    float: left;
+    margin-right: 3px;
+    padding-top: 4px;
+}
+
+.fa-facebook {
+    color: #8CC739;
+}
+
+.fa-facebook:hover {
+    color: #4c66a4;
+}
+
+.fa-twitter {
+    color: #8CC739;
+    padding-right: 10px;
+}  
+
+.fa-twitter:hover {
+    color: #4099FF;
+}
+
+.brndimg {
+    float: left;
+    width: 320px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.brndimg p {
+    font-size: 1.2em;
+    padding-top: 240px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+}
+
+.price {
+    
+}
+
+.price p {
+    font-size: 1.2em;
+    padding-bottom: .3em;
+}
+
+#pricelink a {
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+
+

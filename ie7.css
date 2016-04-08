@@ -1,0 +1,10 @@
+/*IE7 style sheet show banner alert*/
+#ie7banner {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: orangered;
+    font-family: 'Wire One', sans-serif; 
+    color: white;
+    display: block;
+}

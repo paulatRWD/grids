@@ -32,28 +32,17 @@ nav li a{
     font-size: 1.5em;
     font-weight: 800;
         }
+
+nav li a:hover {
+    color: black;
+}
+
 .we {
     text-decoration: none;
     display: inline-block;
-    color: #8CC739;
-    text-align: center;
-    padding-bottom: 1em;
-        }
-.fa-stack:hover .fa-circle {
-    color: #8CC739;
-        }
-.fa-stack:hover .fa-thumbs-up {
-    color: white;
-        }
-.fa-stack:hover .fa-headphones {
-            color: white;
-        }
-.fa-stack:hover .fa-star {
-            color: white;
-        }
-.fa-stack:hover .fa-cube {
-            color: white;
-        }
+    padding-bottom: 100px;
+}
+
 h1 {
     font-size: 6em;
 
@@ -78,9 +67,15 @@ h4 {
 h5 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     line-height: 1em;
-    font-size: 1.2em;
+    font-size: 1.6em;
     letter-spacing: 0.25em;
+    margin-bottom: 24px;
 }
+
+.wedo h5 {
+    font-size: 1.3em;
+}
+
 p {
     line-height: 1.6em;
     font-size: 1.4em;
@@ -164,5 +159,38 @@ p {
 
 .subnav1 a:hover {
     color: white;
+}
+
+
+h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 1em;
+    font-size: .8em;
+    letter-spacing: 0.25em;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+
+.h6number {
+    font-size: 4em;
+}
+.dollarnormal {
+    font-size: 2.8em;
+}
+.dollarlarge {
+    font-size: 3.8em;
+}
+
+.price:hover h5 {
+    color: #8CC739;
+}
+
+.price:hover h6 {
+    color: #8CC739;    
+    text-shadow: 1px 1px #8CC739;
+}
+
+.price:hover .pricelink {
+    background-color: #8CC739;
 }
     

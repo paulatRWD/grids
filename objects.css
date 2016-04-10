@@ -43,26 +43,105 @@
     border-width: .05em;
     border-color: dodgerblue;
 }
+.hr2 {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: .04em;
+    margin-bottom: .04em;
+    border-style: inset;
+    border-width: .05em;
+    border-color: silver;
+}
 
 #mobile {
     display: inline-block;
     margin-top: 4%;
     margin-left: 6.4%;
+    bottom: -20px;
+}
+.wedoicon {
+    
+}
+
+.wedo a {
+    height: 6em;
+    width: 10em;
+    margin: 0 auto;
+}
+
+.we span{
+    margin: 0 auto;
+    height: 6em;
+    width: 6em;
 }
 .fa-circle {
     color: white;
+    font-size: 4em;
+    }
+
+.fa-thumbs-up {
+    color: #8CC739; 
+    font-size: 1em;
+    margin-top: 23px;
 }
+
+.fa-headphones {
+    color: #8CC739; 
+    font-size: 1em;
+    margin-top: 23px;
+}
+
+.fa-star {
+    color: #8CC739; 
+    font-size: 1em;
+    margin-top: 23px;
+}
+
+.fa-cube {
+    color: #8CC739; 
+    font-size: 1em;
+    margin-top: 23px;
+}
+
+.wedo:hover .fa-circle {
+    color: #8CC739;
+        }
+.wedo:hover .fa-thumbs-up {
+    color: white;
+        }
+.wedo:hover .fa-headphones {
+            color: white;
+        }
+.wedo:hover .fa-star {
+            color: white;
+        }
+.wedo:hover .fa-cube {
+            color: white;
+        }
+
+
+
+
+
 .blkicon {
     font-size: 4em;
     color: #8CC739; 
 }
-.oneoffour .image {
+
+.imgbkgrnd {
+    background-color: #8CC739;
+    width: 221px;
+    height: 250px;
+    text-align: center;
+    float: left;
+    margin-left: 2px;
+    margin-right: 17px;
+  }
+
+ .image {
     position: relative;
-}
-.oneoffour .image {
-    width: 100%;
-    padding: 0;
-    border-width: 0;
+    width: 100%;          
 }
 /*.oneoffour .image:after {
     content: '\A';
@@ -78,29 +157,34 @@
     opacity: 1;
 }*/
 
-.img img:hover {
+.image:hover {
+    background-color: #8CC739;
     opacity: 0.7;
-    -webkit-filter: hue-rotate(84deg);
-    filter: hue-rotate(84deg); 
 }
 
-.img:hover {
+.image:hover {
     outline-style: solid;
     outline-color: green;
-    outline-width: 0.8px;
+    outline-width: 2.4px;
     outline-offset: 0; 
 }
 
-/*.image:hover {
-    border-style: solid;
-    border-color: green;
-}*/
+.fa-caret-up {
+    width: 140px;
+    padding-left: 120px;
+    color: black;
+    display: inline-block;
+    font-size: 5em;
+    padding-left:86px;
+    vertical-align: baseline;
+    padding-bottom: -30px;
+}
 
 #johnsocial {
     max-width: 490px;
     float: left;
     margin-right: 3px;
-    padding-top: 4px;
+    padding-top: 16px;
 }
 
 .fa-facebook {
@@ -120,6 +204,18 @@
     color: #4099FF;
 }
 
+.fa-pinterest {
+    color: #8CC739;
+    padding-left: 10px;
+}
+
+.fa-pinterest:hover {
+    color: #C91518;
+}
+
+
+
+
 .brndimg {
     float: left;
     width: 320px;
@@ -137,19 +233,49 @@
     padding-bottom: 16px;
 }
 
-.price {
-    
-}
+
 
 .price p {
     font-size: 1.2em;
     padding-bottom: .3em;
 }
 
-#pricelink a {
-    color: white;
+.pricelink {
+    margin:0 auto;
+    text-align: center;
     background-color: black;
-    width: 100%;
+    border-radius: 5px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pricelinkbutton {
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 200px;
+}
+
+.panelsfive li {
+    list-style-type: none;
+    display: inline-block;
+    width: 185px;
+}
+
+.panelsfive li img {
+   float: left; 
+}
+
+.panelsfive p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+    float: left;
+    letter-spacing: 1.3px;
+    padding-left: 2px;
 }
 
 

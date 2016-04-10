@@ -33,7 +33,6 @@ body header:before {
 .wrapper {
     margin: auto;
     width: 100%;
-    height: 3000px;
 }
 
 #ie7banner {
@@ -65,15 +64,19 @@ header {
 
 .dtwhite {
     background-color: white;
+    position: relative;
 }
 .dtlitegr {
     background-color: #F2F2F2;
+    position: relative;
 }
 .dtblack {
     background-color: black;
+    position: relative;
 }
 .dtdrkgr {
     background-color: #272727;
+    position: relative;
 }
 
 .headandpara {
@@ -111,18 +114,22 @@ header {
 .ninety {
     width: 90%;
 }
-.panelsfour {
-
-}
-.fourpanels{
+.fourpanels {
     max-width: 960px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .staff {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
     padding-top: 4em;
-    padding-bottom: 4em;
+    padding-bottom: 0em;
+    
+}
+
+.fourpanels.staff {
+    margin-bottom: 100px;
 }
 .oneoffour {
     width: 24%;
@@ -131,15 +138,17 @@ header {
     margin-top: 2em;
     margin-bottom: 6em;
     margin-right: 1%;
-    float: left;
 }
 
 .oneoffour:last-child {
     margin-right: 0;
 }
 
-#john {
-    height: 380px;  
+.john { 
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
 
 .johntxt {
@@ -153,6 +162,7 @@ header {
     width: 45%;
     height: 100%;
     float: left;
+    margin-bottom: 80px;
 }
 
 .progressbars p {
@@ -164,7 +174,6 @@ header {
 	height: 8px;  /* Can be anything */
 	position: relative;
 	background: #555;
-    rgba(255,255,255,0.3);
     margin-bottom: 14px;
 }
 
@@ -191,13 +200,44 @@ header {
     overflow: auto;
 }
 
+.pricebody {
+   margin-bottom: 18px;
+   margin-top: 40px;
+}
 .panelsfive {
-    
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-.panelsfive li {
-
+.clients {
+    height: 400px;
 }
+.oneoffive {
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2.4em;
+    margin-bottom: 6em;
+    margin-right: 1%;
+    float: left;
+    font-size: 1.6em;
+    text-shadow: 1px 1px black;
+}
+
+.oneoffive img {
+    display: inline-block;
+}
+
+.forttxt {
+    display: inline-block;
+    top: -10px;
+}
+
+.clientsspace {
+    height: 60px;
+}
+
 
 
 

@@ -95,7 +95,8 @@ header {
 }
 
 .rowtxt {
-
+    max-width: 1086px;
+    margin: 0 auto;
 }
 
 .txt {

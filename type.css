@@ -98,20 +98,20 @@ p {
     color: white;
 }
 
-.johntxtinner h4 {
+.teamtxtinner h4 {
     color: white;
     font-size: 1.6em;
     margin-bottom: 0;
 }
 
-.johnpgreen {
+.teampgreen {
     margin-top: -15px;
     padding: 0;
     color: #8CC739;
     text-shadow: .02em .02em .02em #8CC739;
 }
 
-.johnp {
+.teamp {
     color: white;
     margin-top: 0px;
     font-size: 1em;
